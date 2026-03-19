@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(../images/attachment/bg2.jpg) no-repeat left bottom;
+    background-size: cover;
+    /* width: 100%; */
+    /* height: 300px; */
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+header h1{
+    text-align: center;
+    color: #fff;
+}
+header p{
+    text-align: center;
+    color: #fff;
+}
+header button{
+    border: none;
+    background-color: #fff;
+    padding: 5px;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+}
+main{
+    border: none;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+main .text-1{
+    position: relative;
+    top: -40px;
+    /* margin:  20px; */
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(231, 213, 248);
+}
+main .text-1:last-child{
+    margin: 0;
+}
+footer{
+    color: #000;
+    font-size: 15px;
+    padding: 20px;
+    background-color: rgb(1, 1, 94);
+}
+.footer{
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.input{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    padding: 10px;
+    margin: 5px 0;
+}
+.message .box{
+    padding: 20px
+}
+.name{
+    display: flex;
+    padding: 10px 0;
+    gap: 10px;
+    /* align-content: space-between; */
+}
+.name-box{
+    width: calc(100% / 2);
+}
+.send{
+    display: block;
+    padding: 10px;
+    width: 80px;
+    border: none;
+    color: #fff;
+    margin-left: auto;
+    background-color: blueviolet
+}
